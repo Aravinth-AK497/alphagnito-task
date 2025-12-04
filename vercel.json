@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "alphagnito-task",
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/page1", "dest": "/page1.html" },
+    { "src": "/page2", "dest": "/page2.html" }
+  ]
+}

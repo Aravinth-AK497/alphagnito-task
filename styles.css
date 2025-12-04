@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Poppins:wght@400;700&family=Open+Sans:wght@400&family=Coustard&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.main-container {
+    max-width: 960px;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin: 0 auto;
+}
+
+/* Page 1 Styles */
+.page1-title {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2c5282;
+   
+}
+
+.instruction-list {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333;
+}
+
+.section-title {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    background-color: #F0F7FF !important;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.word-list-table td {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+    vertical-align: middle;
+    background-color: #FFFFFF00;
+
+.word-list-table tr:nth-child(even) td {
+    background-color: #F1F6FC;
+}
+
+.timed-reading-table th {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #fff;
+    color: #2c5282 !important;
+}
+
+.timed-reading-table td:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #F0F7FF;
+    color: #000;
+}
+
+.timed-reading-table td {
+    height: 50px;
+    vertical-align: middle;
+}
+
+/* Page 2 Styles */
+.page2-title {
+    font-family: 'Coustard', serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 69px;
+    vertical-align: middle;
+    color: #2c5282;
+}
+
+.page2-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-image {
+    max-height: 200px;
+    object-fit: cover;
+}
+}
